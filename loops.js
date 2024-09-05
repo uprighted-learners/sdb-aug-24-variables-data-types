@@ -156,3 +156,23 @@ for (i in swings) {
 
 console.log(golfScore)
 
+/* 
+    ? String Reversal
+    * create a variable with a string of something
+    * utilize a loop to reverse a string
+    * HINT: traditional for loop will work best
+    * HINT: think about this the way we thought about counting down from 10
+    * strings are immutable
+*/
+console.log("-----------------------------")
+let str = "something"
+
+// finsih around :26
+let result = ""
+for (let i = str.length - 1; i >= 0; i--) {
+    console.log(str[i])
+    result = result + str[i]
+}
+console.log(result)
+
+// console.log(str.split("").reverse().join(""))
